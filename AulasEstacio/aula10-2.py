@@ -3,7 +3,6 @@ Mini Calculadora -> italo
 """
 
 while True:
-    print()
     num1 = input('Digite um número: ')
     num2 = input('Digite um outro número: ')
     operador = input('Digite um operador: ')
@@ -15,18 +14,18 @@ while True:
     if not num1.isdigit() or not num2.isdigit():
         print('Você digitou algo inválido, tente novamente.')
         continue
-
-    num1 = float(num1)
-    num2 = float(num2)
-
-    # + - / *
-    if operador == '+':
-        print(num1 + num2)
-    elif operador == '-':
-        print(num1 - num2)
-    elif operador == '/':
-        print(num1 / num2)
-    elif operador == '*':
-        print(num1 * num2)
-    else:
-        print('Operador inválido.')
+    #
+    # num1 = float(num1)
+    # num2 = float(num2)
+    #
+    # # + - / *
+    # if operador == '+':
+    #     print(num1 + num2)
+    # elif operador == '-':
+    #     print(num1 - num2)
+    # elif operador == '/':
+    #     print(num1 / num2)
+    # elif operador == '*':
+    #     print(num1 * num2)
+    # else:
+    #     print('Operador inválido.')
